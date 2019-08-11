@@ -48,6 +48,6 @@ class example {
 	content => 'Welcome user!',
 	}
  package {'vim':
-	ensure  => 'absent',
+	ensure  => 'present',
 	}
 }
