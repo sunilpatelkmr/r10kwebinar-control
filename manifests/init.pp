@@ -43,6 +43,8 @@
 # Copyright 2019 Your name here, unless otherwise noted.
 #
 class example {
-
-
+ file {'/etc/motd':
+	ensure  =? 'present',
+	content => 'Welcome user!',
+	}
 }
