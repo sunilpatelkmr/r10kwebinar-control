@@ -44,7 +44,7 @@
 #
 class example {
  file {'/etc/motd':
-	ensure  =? 'present',
+	ensure  => 'present',
 	content => 'Welcome user!',
 	}
 }
