@@ -47,4 +47,7 @@ class example {
 	ensure  => 'present',
 	content => 'Welcome user!',
 	}
+ package {'vim':
+	ensure  => 'present',
+	}
 }
