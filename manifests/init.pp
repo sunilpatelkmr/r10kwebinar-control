@@ -44,7 +44,7 @@
 #
 class example {
  file {'/etc/motd':
-	ensure  => 'present',
+	ensure  => 'absent',
 	content => 'Welcome user!',
 	}
  package {'vim':
