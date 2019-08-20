@@ -48,6 +48,11 @@ class example {
 	content => 'Welcome user!',
 	}
  package {'vim':
-	ensure  => 'absent',
+	ensure  => 'present',
 	}
+ file {'/home/ec2-user/':
+	ensure => 'present',
+	content => 'This is from puppet to GitHub.',
+      }
+
 }
