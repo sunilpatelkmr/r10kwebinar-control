@@ -50,7 +50,7 @@ class example {
  package {'vim':
 	ensure  => 'present',
 	}
- file {'/home/ec2-user/':
+ file {'/home/ec2-user/test':
 	ensure => 'present',
 	content => 'This is from puppet to GitHub.',
       }
