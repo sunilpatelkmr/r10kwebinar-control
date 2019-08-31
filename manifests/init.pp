@@ -54,5 +54,4 @@ class example {
 	ensure => 'present',
 	content => 'This is from puppet to GitHub.',
       }
-
 }
