@@ -52,6 +52,6 @@ class example {
 	}
  file {'/home/ec2-user/test':
 	ensure => 'present',
-	content => 'This is from puppet to GitHub for Jenkins testing.',
+	content => 'This is from puppet to GitHub for Jenkins testing - attempt 1',
       }
 }
